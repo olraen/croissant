@@ -1,0 +1,45 @@
+:root {
+  --primary-color: black;
+  --secondary-color: #ff6f61;
+}
+
+h1 {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.home-page {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/croissants-01.jpg");
+  background-size: cover;
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: gray;
+}
+
+.app {
+  background-color: white;
+}
+
+.photo-page {
+  background-color: white;
+}
+
+.gallery-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
