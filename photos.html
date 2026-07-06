@@ -12,6 +12,20 @@
     <link rel="stylesheet" href="styles/style.css" />
     <title>Photos</title>
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-1HN1P60ES2"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-1HN1P60ES2");
+  </script>
   <body class="photo-page">
     <div class="container app mt-5 w-75 mx-auto h-75 rounded-3 p-5 shadow">
       <h1>🥐 Some photos of croissants</h1>
@@ -20,14 +34,14 @@
           <img
             src="images/croissant-01.jpg"
             class="img-fluid rounded shadow gallery-img"
-            alt="Croissant"
+            alt="Image of a croissant"
           />
         </div>
         <div class="col-md-6">
           <img
             src="images/croissants-01.jpg"
             class="img-fluid rounded shadow gallery-img"
-            alt="Croissant"
+            alt="Image of many croissants"
           />
         </div>
       </div>
